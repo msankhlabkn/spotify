@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+      
+        <div class="songItemContainer">
+            <h1 style="font-size:40px">Best of NCS - No Copyright Sounds</h1> 
+            <div class="songItem">
+               
+                <img src="covers/1.jpg" alt="1">
+                <span>Warriyo - Mortals [Ncs Release]</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i class="far fa-3x fa-play-circle"
+                            onclick="playSong('1')"></i> </span></samp>
+            </div>
+
+            <div class="songItem">
+               
+                <img src="covers/2.jpg" alt="1">
+                <span>Cielo- Huma-Huma</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i class="far fa-3x fa-play-circle"
+                            onclick="playSong('2')"></i> </span></samp>
+            </div>
+
+
+            <div class="songItem">
+               
+                <img src="covers/3.jpg" alt="1">
+                <span>DEAF KEV -Invincible</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i class="far fa-3x fa-play-circle"
+                            onclick="playSong('3')"></i> </span></samp>
+            </div>
+
+            <div class="songItem">
+               
+                <img src="covers/4.jpg" alt="1">
+                <span>Different Heaven</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i class="far fa-3x fa-play-circle"
+                            onclick="playSong('4')"></i> </span></samp>
+            </div>
+        </div>
+       
+
+       
+    </div>
+    <div class="audio-player">
+         <img src="playing.gif" width="100px" alt="" id="gif">
+        <audio tabindex="0" id="player-song" controls preload="auto" >
+            <source src="">
+        </audio>
+    </div>
+    
+  
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>>
